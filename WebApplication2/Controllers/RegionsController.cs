@@ -15,6 +15,7 @@ namespace Walking_Simple_API.Controllers
 
         public RegionsController(TheDBContext dbContect)
         {
+            //habilitar el context para su uso
             this.dbContext = dbContect;
         }
 
